@@ -1,6 +1,8 @@
 header{
     position: relative;
     height: 60px;
+    background-color: black;
+
     /*border: 1px solid black;*/
 }
 header>nav>ul {
@@ -9,13 +11,13 @@ header>nav>ul {
     right: 0;
     list-style: none;
 }
-header>nav>ul>li{
+header>nav>ul>li {
     display: inline-block;
-    padding: 0 20px 0 10px;
+    padding: 0 19px 0 10px;
 }
 header>nav>ul>li>a{
     text-decoration: none;
-    color: black;
+    color: white;
     transition: all 1s;
     font-size: 25px;
 }
@@ -63,22 +65,90 @@ header>nav>ul>li>a:hover{
 
 
 
+
       /*............Header css End.............*/
 
 
 
  #background_img{
-     position: relative;
      height: 800px;
      border: 1px solid black;
-     background-image: url("../img/dark-paper-layers-wallpaper-with-golden-details_23-2148403401.jpg");
+     background-image: url("../img/Vithum.jpg");
      background-size: cover;
      background-position: center;
  }
 
+#about_background{
+    position: relative;
+    height: 846px;
+    border: 1px solid black;
+    background-image: url("../img/Artboard 1 (1).jpg");
+    background-size: cover;
+    background-position: center;
+}
+#about_img {
+    border: 1px solid white;
+    about_
+    width: 100px;
+    height: 100px;
+    top: 131px;
+    position: absolute;
+    left: 119px;
+}
+#about_fram{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#web_name2 {
+    color: white;
+    position: absolute;
+    top: 182px;
+    margin: auto;
+    left: 99px;
+    font-size: 97px;
+}
+
+#web_name3 {
+     color: white;
+     position: absolute;
+     top: 339px;
+     margin: auto;
+     left: 455px;
+     font-size: 97px;
+ }
+
+.name:first-letter{
+    color: goldenrod;
+    font-size: 136px;
+}
+#icon {
+    position: relative;
+    height: 77px;
+    /* border: 1px solid white; */
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    top: 691px;
+    left: 32px;
+}
+#icon>div{
+    height: 100%;
+    width: 96px;
+    /*border: 1px solid white;*/
+}
+#icon>div>img {
+    height: 60px;
+    width: 70px;
+}
+
+
+
                /*...............Responsive.............*/
 
-
+         /*....................//Phone//....................*/
 
 @media all and (max-width: 425px) {
     #menu_mobile{
@@ -87,7 +157,84 @@ header>nav>ul>li>a:hover{
     header>nav{
         display: none;
     }
+    header {
+        position: relative;
+        height: 32px;
+        background-color: black;
+        /* border: 1px solid black; */
+    }
+    #background_img {
+        background-position: -257px;
+        height: 463px;
+        width: 435px;
+        left: -12px;
+        position: absolute;
+    }
+    #about_background {
+        position: relative;
+        height: 497px;
+        top: 465px;
+        border: 1px solid black;
+        background-image: url("../img/Artboard 1 (1).jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .name:first-letter {
+        color: goldenrod;
+        font-size: 54px;
+    }
+    #web_name1 {
+        color: white;
+        position: absolute;
+        top: 265px;
+        margin: auto;
+        left: 66px;
+        font-size: 77px;
+    }
+    #web_name2 {
+        color: white;
+        position: absolute;
+        top: 73px;
+        margin: auto;
+        left: 178px;
+        font-size: 35px;
+    }
+    #web_name3 {
+        color: white;
+        position: absolute;
+        top: 137px;
+        margin: auto;
+        left: 4px;
+        font-size: 35px;
+    }
+    #icon {
+        position: relative;
+        height: 42px;
+        /* border: 1px solid white; */
+        width: 118px;
+        display: flex;
+        justify-content: center;
+        top: 336px;
+        left: 127px;
+    }
+    #icon>div>img {
+        height: 40px;
+        width: 43px;
+    }
+
+
 }
+
+      /*....................//Tab//....................*/
+
 
 @media all and (min-width: 425px) and (max-width: 768px) {
     #menu_mobile{
@@ -96,12 +243,118 @@ header>nav>ul>li>a:hover{
     header>nav{
         display: none;
     }
+    #background_img {
+        height: 470px;
+    }
+    .sidenav a {
+        padding: 5px 39px 9px 25px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .name:first-letter {
+        color: goldenrod;
+        font-size: 65px;
+    }
+    #web_name1 {
+        color: white;
+        position: absolute;
+        top: 209px;
+        margin: auto;
+        left: 22px;
+        font-size: 44px;
+    }
+    #web_name2 {
+        color: white;
+        position: absolute;
+        top: 209px;
+        margin: auto;
+        left: 139px;
+        font-size: 44px;
+    }
+    #web_name3 {
+        color: white;
+        position: absolute;
+        top: 209px;
+        margin: auto;
+        left: 313px;
+        font-size: 44px;
+    }
+    #icon {
+        position: relative;
+        height: 67px;
+        /* border: 1px solid white; */
+        width: 460px;
+        display: flex;
+        justify-content: center;
+        top: 237px;
+        left: 23px;
+    }
+    #icon>div>img {
+        height: 43px;
+        width: 52px;
+    }
+    #about_background {
+        height: 601px;
+
+    }
+    header {
+        height: 28px;
+    }
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+       /* ....................//Mini lap//....................*/
 
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #background_img {
+        height: 581px;
+    }
+
+    header>nav>ul>li>a {
+        font-size: 19px;
+    }
+    header>nav>ul>li>a:hover{
+        color: gold;
+        transition: all 1s;
+        font-size: 30px;
+    }
+    .name:first-letter {
+        color: goldenrod;
+        font-size: 93px;
+    }
+
+    #web_name2 {
+        top: 148px;
+        left: 81px;
+        font-size: 62px;
+    }
+    #web_name3 {
+        top: 243px;
+        left: 357px;
+        font-size: 62px;
+    }
+    #icon {
+        width: 587px;
+        top: 480px;
+        left: 46px;
+    }
+    #icon>div>img {
+        height: 57px;
+        width: 52px;
+    }
+    header {
+        height: 48px;
+    }
+    #about_background {
+        height: 619px;
+    }
 }
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
-
+    #background_img {
+        height: 740px;
+    }
 }
